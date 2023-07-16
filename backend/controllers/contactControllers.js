@@ -1,8 +1,5 @@
 const Contact = require("../models/Contact");
 const mongoose = require("mongoose")
-
-//9955761346
-
 // GET ALL CONTACTS
 const getContacts = async(req,res)=>{
     const user_id = req.user._id
